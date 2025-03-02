@@ -18,8 +18,20 @@
 
 // what is the value of each variable in each line of code ?
 
-let num = 5;
-let newNum = num++;
-newNum == ++num;
-console.log(newNum);
-console.log(num);
+// let num = 5;
+// let newNum = num++;
+// newNum == ++num;
+// console.log(newNum);
+// console.log(num);
+
+//boolean
+
+// strings
+
+let name = "Kunal Mandal";
+let role = "college student";
+let char = 'a';
+let num = '16';
+let empty = '';
+
+console.log(name,role, char, num, empty);
