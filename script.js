@@ -28,10 +28,21 @@
 
 // strings
 
-let name = "Kunal Mandal";
-let role = "college student";
-let char = 'a';
-let num = '16';
-let empty = '';
+// let name = "Kunal Mandal";
+// let role = "college student";
+// let char = 'a';
+// let num = '16';
+// let empty = '';
 
-console.log(name,role, char, num, empty);
+// console.log(name,role, char, num, empty);
+
+// Array 
+
+let name = "kunal mandal";
+
+console.log(name[0]);
+console.log(name[1]);
+console.log(name[2]);
+console.log(name[3]);
+console.log(name[4]);
+console.log(name[5]);
