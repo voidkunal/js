@@ -39,12 +39,22 @@
 
 // Array 
 
-let name2 = "kunal mandal";
+// let name2 = "kunal mandal";
 
-console.log(name2[0]);
-console.log(name2[1]);
-console.log(name2[2]);
-console.log(name2[3]);
-console.log(name2[4]);
-console.log(name2[5]);
-console.log(name2.length); // for showing length of string or array
+// console.log(name2[0]);
+// console.log(name2[1]);
+// console.log(name2[2]);
+// console.log(name2[3]);
+// console.log(name2[4]);
+// console.log(name2[5]);
+// console.log(name2.length); // for showing length of string or array
+
+// concatenation
+
+let firstName = "Kunal";
+let lastName = "Mandal";
+let fullName = firstName + " " + lastName;
+console.log(fullName);
+
+
+console.log("tony" + " " + "stark");
