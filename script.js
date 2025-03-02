@@ -51,10 +51,34 @@
 
 // concatenation
 
-let firstName = "Kunal";
-let lastName = "Mandal";
-let fullName = firstName + " " + lastName;
-console.log(fullName);
+// let firstName = "Kunal";
+// console.log(firstName[0]);
+// let lastName = "Mandal";
+// let fullName = firstName + " " + lastName;
+// console.log(fullName);
 
 
-console.log("tony" + " " + "stark");
+// console.log("tony" + " " + "stark");
+
+// declare your name as a stringn and print it's length in js
+
+let str = "Kunal Mandal";
+console.log(str.length);
+
+// Declare your frist name as string ND PRINT it's frist & last  characters
+
+let str1 = "Kunal Mandal";
+console.log(str1[0]);
+console.log(str1[str1.length - 1]);
+
+// what is the output of the following code
+
+console.log("apnacollege" + 123);
+
+// what are length of the empty string and a string with a single sppace ?
+
+let emptyString = "";
+let singleSpaceString = " ";
+
+console.log(emptyString.length); // This will print 0
+console.log(singleSpaceString.length); // This will print 1
