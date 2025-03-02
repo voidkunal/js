@@ -28,7 +28,8 @@
 
 // strings
 
-// let name = "Kunal Mandal";
+// let name1 = "Kunal Mandal";
+// console.log(name1.length);
 // let role = "college student";
 // let char = 'a';
 // let num = '16';
@@ -38,11 +39,12 @@
 
 // Array 
 
-let name = "kunal mandal";
+let name2 = "kunal mandal";
 
-console.log(name[0]);
-console.log(name[1]);
-console.log(name[2]);
-console.log(name[3]);
-console.log(name[4]);
-console.log(name[5]);
+console.log(name2[0]);
+console.log(name2[1]);
+console.log(name2[2]);
+console.log(name2[3]);
+console.log(name2[4]);
+console.log(name2[5]);
+console.log(name2.length); // for showing length of string or array
