@@ -96,16 +96,45 @@
 // condition statement ( if )
 // Create a traffic light system that shows what to do based on the color.
 
-let collor = "yellow";
+// let collor = "yellow";
 
-if( collor === "red"){
-    console.log("stop");
+// if( collor === "red"){
+//     console.log("stop");
+// }
+// else if (collor === "yelloww") {
+//     console.log("Ready");
+// } else  if (collor === "green") {
+//     console.log("Go");
+// }
+// else{
+//     console.log("chosee the correct collor");
+// }
+
+//Create a system to calculate popcron based on the size customer asked for : 
+
+// if the size is 'XL', price is RS. $250
+// if the size is 'L', price is RS. $200
+// if the size is 'M', price is RS. $100
+// if the size is 'S', price is RS. $50
+
+let popcron_size = "s";
+
+if(popcron_size === "xl"){
+    console.log("Price is RS. 250");
 }
-else if (collor === "yelloww") {
-    console.log("Ready");
-} else  if (collor === "green") {
-    console.log("Go");
+
+else if (popcron_size === "l") {
+    console.log("Price is RS. 200");
 }
+
+else if (popcron_size === "m") {
+    console.log("Price is RS. 100");
+}
+
+else if (popcron_size === "s") {
+    console.log("Price is RS. 50");
+}
+
 else{
-    console.log("chosee the correct collor");
+    console.log("Choose the correct size");
 }
