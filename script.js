@@ -117,24 +117,40 @@
 // if the size is 'M', price is RS. $100
 // if the size is 'S', price is RS. $50
 
-let popcron_size = "s";
+// let popcron_size = "s";
 
-if(popcron_size === "xl"){
-    console.log("Price is RS. 250");
+// if(popcron_size === "xl"){
+//     console.log("Price is RS. 250");
+// }
+
+// else if (popcron_size === "l") {
+//     console.log("Price is RS. 200");
+// }
+
+// else if (popcron_size === "m") {
+//     console.log("Price is RS. 100");
+// }
+
+// else if (popcron_size === "s") {
+//     console.log("Price is RS. 50");
+// }
+
+// else{
+//     console.log("Choose the correct size");
+// }
+
+// nested if-else
+
+let marks = 205;
+
+if ( marks >= 33 && marks <=100){
+    if ( marks >= 80 && marks <= 100){
+        console.log(" Your Grade O ");
+    }
+    else {
+        console.log(" Your Grade A ");
+    }
 }
-
-else if (popcron_size === "l") {
-    console.log("Price is RS. 200");
-}
-
-else if (popcron_size === "m") {
-    console.log("Price is RS. 100");
-}
-
-else if (popcron_size === "s") {
-    console.log("Price is RS. 50");
-}
-
-else{
-    console.log("Choose the correct size");
+else {
+    console.log(" Better luck next Time ");
 }
