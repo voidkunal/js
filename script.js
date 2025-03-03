@@ -85,10 +85,27 @@
 
 // comparison operator
 
-let age = 20;
-let name = "Kunal Mandal";
-let num = 20;
+// let age = 20;
+// let name = "Kunal Mandal";
+// let num = 20;
 
-console.log(age === name);
-console.log(age === num);
-console.log(typeof age, typeof num , typeof name);
+// console.log(age === name);
+// console.log(age === num);
+// console.log(typeof age, typeof num , typeof name);
+
+// condition statement ( if )
+// Create a traffic light system that shows what to do based on the color.
+
+let collor = "yellow";
+
+if( collor === "red"){
+    console.log("stop");
+}
+else if (collor === "yelloww") {
+    console.log("Ready");
+} else  if (collor === "green") {
+    console.log("Go");
+}
+else{
+    console.log("chosee the correct collor");
+}
