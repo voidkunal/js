@@ -217,5 +217,11 @@
 
 // ALter & Prompt
 
-prompt("What is your name ? : ");
-alert("Hello, World!");
+// prompt("What is your name ? : ");
+// alert("Hello, World!");
+let msg = "kunal";
+msg.trim();
+
+let str = "Kunal Mandal";
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
