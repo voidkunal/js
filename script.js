@@ -141,16 +141,46 @@
 
 // nested if-else
 
-let marks = 205;
+// let marks = 205;
 
-if ( marks >= 33 && marks <=100){
-    if ( marks >= 80 && marks <= 100){
-        console.log(" Your Grade O ");
-    }
-    else {
-        console.log(" Your Grade A ");
-    }
+// if ( marks >= 33 && marks <=100){
+//     if ( marks >= 80 && marks <= 100){
+//         console.log(" Your Grade O ");
+//     }
+//     else {
+//         console.log(" Your Grade A ");
+//     }
+// }
+// else {
+//     console.log(" Better luck next Time ");
+// }
+
+// let num = 12;
+
+// if((num % 3 == 0 ) && ((num + 1 == 15 )|| (num - 1 == 11 ))){
+//     console.log("safe");
+// }
+// else {
+//     console.log("unsafe");
+// }
+
+// A "good string" is a string that starts with the letters 'a' and has a length > 3. Write a program to find if a string is a good string or not.
+
+let str1 = "kunal";
+let str2 = "amit";
+let str3 = "varun";
+
+if(str1 [0] === "a" && str1.length > 3){
+    console.log("Good String");
+
 }
-else {
-    console.log(" Better luck next Time ");
+else if (str2[0] === "a" && str2.length > 3){
+    console.log("Good String");
+}
+else if (str3[0] === "a" && str3.length > 3){
+    console.log("Good String");
+}
+
+else{
+    console.log("Not a good string");
 }
