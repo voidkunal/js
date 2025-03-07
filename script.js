@@ -275,27 +275,47 @@
 
 // PQS) For the given start state of an array, change it to final * from using methods
 
-let yearstar = ['january', 'febuary', 'march', 'april', 'may', 'june'];
+// let yearstar = ['january', 'febuary', 'march', 'april', 'may', 'june'];
 
-let yearshes = ['july', 'august', 'september', 'october', 'november', 'december'];
-let year = yearstar.concat(yearshes);
-console.log(year);
+// let yearshes = ['july', 'august', 'september', 'october', 'november', 'december'];
+// let year = yearstar.concat(yearshes);
+// console.log(year);
 
-console.log(year.reverse(year));
+// console.log(year.reverse(year));
 
 
-let primary = ["red", "yellow", "green"];
-let pre = ["blue", "violet", "orange"];
+// let primary = ["red", "yellow", "green"];
+// let pre = ["blue", "violet", "orange"];
 
-let final = pre.concat(primary);
+// let final = pre.concat(primary);
 
-console.log(final);
+// console.log(final);
 
-final.reverse();
+// final.reverse();
 
-console.log(final);
+// console.log(final);
 
 // console.log(primary.indexOf("yellow"));
 // console.log(primary.includes("red"));
 // console.log(yearstar.includes("december"));
 // console.log(yearstar.includes("march"));
+
+let color = ["red", "yellow", "green", "blue", "violet", "orange"];
+
+// console.log(color.concat("lime"));
+// console.log(color.concat("black"));
+
+// console.log(color.reverse());
+// console.log(color);
+// console.log(color.concat("sky blue"));
+
+// console.log(color.slice(2));
+// console.log(color.slice(2, 4));
+// console.log(color.slice(-2));
+// console.log(color);
+
+console.log(color.splice(4));
+console.log(color);
+
+console.log(color.splice(0, 1, "pink", "purple"));
+console.log(color);
