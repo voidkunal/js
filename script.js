@@ -300,7 +300,7 @@
 // console.log(yearstar.includes("december"));
 // console.log(yearstar.includes("march"));
 
-let color = ["red", "yellow", "green", "blue", "violet", "orange"];
+// let color = ["red", "yellow", "green", "blue", "violet", "orange"];
 
 // console.log(color.concat("lime"));
 // console.log(color.concat("black"));
@@ -314,8 +314,29 @@ let color = ["red", "yellow", "green", "blue", "violet", "orange"];
 // console.log(color.slice(-2));
 // console.log(color);
 
-console.log(color.splice(4));
-console.log(color);
+// console.log(color.splice(4));
+// console.log(color);
 
-console.log(color.splice(0, 1, "pink", "purple"));
-console.log(color);
+// console.log(color.splice(0, 1, "pink", "purple"));
+// console.log(color);
+
+// let fruit = ["apple","chuchi", "banana", "orange", "grapes", "mango", "papaya", "watermelon"];
+// console.log(fruit.sort());
+
+// let num = [2, 8, 5, 1, 7, 3, 4, 6];
+// console.log(num.sort());
+
+// PQS) for the given start state of an array, change it to final from using slice
+
+// let start = ['january', 'july', 'june', 'march', 'august'];
+
+// console.log(start.slice(1));
+
+// PQS ) return of the "javascript" from the given array, if it was reversed
+
+// Solution :
+
+let javascript = [ 'c', 'c++', 'java', 'javascript', 'python', 'java', 'c#', 'sql', 'mongodb'];
+console.log(javascript.reverse());
+console.log(javascript.indexOf("javascript"));
+console.log(javascript.sort());
