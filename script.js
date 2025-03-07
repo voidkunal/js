@@ -219,9 +219,83 @@
 
 // prompt("What is your name ? : ");
 // alert("Hello, World!");
-let msg = "kunal";
-msg.trim();
 
-let str = "Kunal Mandal";
-console.log(str.toUpperCase());
-console.log(str.toLowerCase());
+// let msg = "kunal";
+// msg.trim();
+
+// let str = "Kunal Mandal";
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+
+// let str = "kunal MandaL";
+
+// console.log(str.toUpperCase().trim().indexOf("L"));
+
+// let str = " kunal love coding ";
+
+// console.log(str.slice(6, 10));
+// console.log(str.replace("love", "do"));
+// console.log(str.repeat(5));
+
+// PQ
+
+// For the given string trem it and set the uppercase
+
+// let msg = "help";
+// console.log(msg.toUpperCase(), msg.trim());
+
+// for the string -> let name "apna college", predict the output for following : name.slice(4,9) name.indexof("na") name.replace("Apna", "our")
+
+// let name = "apna college";
+
+// console.log(name.slice(4,9));
+// console.log(name.replace("college", "i" + "t"));
+
+// what is array and what is string give example
+
+// let student1 = "kunal" ; // string
+//let student2 = ["kunal", "mandal" ]; // in js array definie as object
+// console.log(typeof(student1));
+// console.log(typeof(student2));
+
+// let info = [ 'Kunal Mandal', ['Techno India University','TIU'], 221003003002, 20, 5.6 ];
+// console.log(typeof(info));
+// console.log(info[0]); 
+// console.log(info[1][1]);
+// info[3] = 3002;
+// console.log(info[3]);
+// info.push = "i love web dev";
+// console.log(info);
+// info.pop = "i love web dev";
+// console.log(info);
+// info.unshift = "i love myself";
+// console.log(info);
+// info.shift = "i love myself";
+// console.log(info);
+
+// PQS) For the given start state of an array, change it to final * from using methods
+
+let yearstar = ['january', 'febuary', 'march', 'april', 'may', 'june'];
+
+let yearshes = ['july', 'august', 'september', 'october', 'november', 'december'];
+let year = yearstar.concat(yearshes);
+console.log(year);
+
+console.log(year.reverse(year));
+
+
+let primary = ["red", "yellow", "green"];
+let pre = ["blue", "violet", "orange"];
+
+let final = pre.concat(primary);
+
+console.log(final);
+
+final.reverse();
+
+console.log(final);
+
+// console.log(primary.indexOf("yellow"));
+// console.log(primary.includes("red"));
+// console.log(yearstar.includes("december"));
+// console.log(yearstar.includes("march"));
