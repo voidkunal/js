@@ -336,7 +336,105 @@
 
 // Solution :
 
-let javascript = [ 'c', 'c++', 'java', 'javascript', 'python', 'java', 'c#', 'sql', 'mongodb'];
-console.log(javascript.reverse());
-console.log(javascript.indexOf("javascript"));
-console.log(javascript.sort());
+// let javascript = [ 'c', 'c++', 'java', 'javascript', 'python', 'java', 'c#', 'sql', 'mongodb'];
+// console.log(javascript.reverse());
+// console.log(javascript.indexOf("javascript"));
+// console.log(javascript.sort());
+
+// Array with const
+
+// const arr = [0,1, 2];
+// console.log(arr);
+// arr.push(4);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+
+// nested array like 2d array in other language
+
+// const ptr = [[2,4], [1,3], [5, 10]];
+// console.log(ptr[1][1]);
+
+// create a tic-tac game in 2d array
+
+// const tic_tac = [['x', null, 0], [null, 'x', null], [0, null, 'x']];
+// console.log(tic_tac);
+
+// Some PQS of nested  loop or loop
+
+// Make a Program to select the correct movie name using while loop(select the correct movie name pickup then loop was end either it's run continue & it's user's wnat quit the it'll be work)
+
+// let movie = "ddlj";
+
+// let gm = prompt("enter the movie name : ");
+// for(let i = 0; ; i++){
+//     if(gm === movie){
+//         alert("Congratulation, you have selected the correct movie name");
+//         break;
+//     }
+//     else{
+//         gm = prompt("enter the movie name : ");
+//     }
+// }
+
+// loop with array
+
+// let fruite = ["mango", "apple", "banna", "litchi", "orange"];
+// for(let i = 0; i < fruite.length; i++){
+//     console.log(i, fruite[i]);
+// }
+
+// const student = { name : "Kunal Mandal", age : 20, college : "Techno India University", roll : 221003003002, cgpa : 8.5, city : "Kolkata", state : "West Bengal", country : "India" };
+// console.log(student.city = "Kolkata");
+// console.log(student.gender = "male");
+// console.log(student);
+// console.log(delete student.country);
+// console.log(student);
+
+// objects of object
+
+const info = {
+    kunal : {
+        Name : "Kunal Mandal",
+        Age : 20,
+        College : "Techno India University",
+        Roll : 221003003002,
+        CGPA : 8.5,
+        City : "Kolkata",
+        State : "West Bengal",
+        Country : "India"
+    },
+    tania : {
+        Name : "Tania Nasker",
+        age : 18,
+        college : "N/A",
+        school : "Harindanga High School",
+        City : "Kolkata",
+        State : "West Bengal",
+        Country : "India"
+    },
+    sraddha : {
+        Name : "Sraddha Nasker",
+        Age : 21,
+        School : "Sarada Mandir",
+        college : "Takur Puker Vivekananda College",
+        CGPA : 9.5,
+        City : "Kolkata",
+        State : "West Bengal",
+        Country : "India"
+    }
+}
+
+info.kunal.gender = "male";
+console.log(info.kunal);
+info.tania.gender = "female";
+console.log(info.tania);
+info.sraddha.gender = "female";
+console.log(info.sraddha);
+
+delete info.kunal.Country;
+console.log(info.kunal);
+delete info.tania.Country;
+console.log(info.tania);
+delete info.sraddha.Country;
+console.log(info.sraddha);
