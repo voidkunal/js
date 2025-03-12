@@ -393,48 +393,101 @@
 
 // objects of object
 
-const info = {
-    kunal : {
-        Name : "Kunal Mandal",
-        Age : 20,
-        College : "Techno India University",
-        Roll : 221003003002,
-        CGPA : 8.5,
-        City : "Kolkata",
-        State : "West Bengal",
-        Country : "India"
-    },
-    tania : {
-        Name : "Tania Nasker",
-        age : 18,
-        college : "N/A",
-        school : "Harindanga High School",
-        City : "Kolkata",
-        State : "West Bengal",
-        Country : "India"
-    },
-    sraddha : {
-        Name : "Sraddha Nasker",
-        Age : 21,
-        School : "Sarada Mandir",
-        college : "Takur Puker Vivekananda College",
-        CGPA : 9.5,
-        City : "Kolkata",
-        State : "West Bengal",
-        Country : "India"
-    }
-}
+// const info = {
+//     kunal : {
+//         Name : "Kunal Mandal",
+//         Age : 20,
+//         College : "Techno India University",
+//         Roll : 221003003002,
+//         CGPA : 8.5,
+//         City : "Kolkata",
+//         State : "West Bengal",
+//         Country : "India"
+//     },
+//     tania : {
+//         Name : "Tania Nasker",
+//         age : 18,
+//         college : "N/A",
+//         school : "Harindanga High School",
+//         City : "Kolkata",
+//         State : "West Bengal",
+//         Country : "India"
+//     },
+//     sraddha : {
+//         Name : "Sraddha Nasker",
+//         Age : 21,
+//         School : "Sarada Mandir",
+//         college : "Takur Puker Vivekananda College",
+//         CGPA : 9.5,
+//         City : "Kolkata",
+//         State : "West Bengal",
+//         Country : "India"
+//     }
+// }
 
-info.kunal.gender = "male";
-console.log(info.kunal);
-info.tania.gender = "female";
-console.log(info.tania);
-info.sraddha.gender = "female";
-console.log(info.sraddha);
+// info.kunal.gender = "male";
+// console.log(info.kunal);
+// info.tania.gender = "female";
+// console.log(info.tania);
+// info.sraddha.gender = "female";
+// console.log(info.sraddha);
 
-delete info.kunal.Country;
-console.log(info.kunal);
-delete info.tania.Country;
-console.log(info.tania);
-delete info.sraddha.Country;
-console.log(info.sraddha);
+// delete info.kunal.Country;
+// console.log(info.kunal);
+// delete info.tania.Country;
+// console.log(info.tania);
+// delete info.sraddha.Country;
+// console.log(info.sraddha);
+
+// array of object
+
+// const info = [ {name : "kunal", age : 20}, {name : "tania", age : 18}, {name : "sraddha", age : 21} ];
+// console.log(info[0]);
+// console.log(info[1]);   
+// console.log(info[2]);
+
+// info.push({name : "sourav", age : 22});
+// console.log(info);
+
+// info[0].gender = "male";
+// console.log(info[0]);
+
+// delete info[2].age;
+// console.log(info[2]);
+// console.log(typeof(info));
+// console.log(typeof(info[0]));
+
+//Math object 
+
+// let nums= Math.random();
+// nums = nums * 10;
+// nums = Math.floor(nums);
+// nums = nums + 1;
+
+// console.log(nums);
+
+// console.log("               ");   
+
+// short hand to use math random 
+
+// let randoms = Math.floor(Math.random() * 10) + 1;
+// console.log(randoms);
+
+// PQS) Generate a random number between 1 to 100
+// PQS) Generate a random number between 1 to 5
+//PQS) Generate a random number between 45 to 49
+
+//1PQS :
+
+const  pqs1 = Math.floor(Math.random() * 100) +1;
+console.log(pqs1);
+
+//2PQS :
+
+const pqs2 = Math.floor(Math.random() * 5) + 1;
+console.log(pqs2);
+
+//3PQS :
+
+const pqs3 = Math.floor(Math.random() * 5) + 45;
+console.log(pqs3);
