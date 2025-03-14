@@ -493,3 +493,25 @@
 // console.log(pqs3);
 
 // Build a todo appliication using array of object
+
+// Functions with Arguments
+
+// normal Function 
+
+// function print(){
+//     alert("Hello Kunal");
+//     console.log("Hello Kunal");
+// };
+
+// print();
+
+//Arguments Function
+
+function info (name, age, relation){
+    console.log(name, age, relation);
+    alert(name);
+    alert(age);
+    alert(relation);
+}
+
+info("kunal", 20, "complicated");
