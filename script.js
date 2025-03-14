@@ -479,15 +479,17 @@
 
 //1PQS :
 
-const  pqs1 = Math.floor(Math.random() * 100) +1;
-console.log(pqs1);
+// const  pqs1 = Math.floor(Math.random() * 100) +1;
+// console.log(pqs1);
 
-//2PQS :
+// //2PQS :
 
-const pqs2 = Math.floor(Math.random() * 5) + 1;
-console.log(pqs2);
+// const pqs2 = Math.floor(Math.random() * 5) + 1;
+// console.log(pqs2);
 
-//3PQS :
+// //3PQS :
 
-const pqs3 = Math.floor(Math.random() * 5) + 45;
-console.log(pqs3);
+// const pqs3 = Math.floor(Math.random() * 5) + 45;
+// console.log(pqs3);
+
+// Build a todo appliication using array of object
